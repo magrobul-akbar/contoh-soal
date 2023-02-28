@@ -39,3 +39,39 @@
  13. Elemen penting yang termasuk dalam pembuatan Class dan Object adalah: ?
  14. Terdapat 4 macam access modifier yaitu: public, protected, private, (Java) no modifier.
  15. Berdasarkan scope atau ruang lingkupnya, maka data variabel dibedakan menjadi 2 jenis yaitu: ?
+ 16. Yang merupakan karakteristik dari Client-side scripting adalah: ?
+ 
+ Script soal untuk nomor 17 s/d 21:
+     <?php 
+      include "Connections/koneksi.php";
+
+      $username = $_POST['username']; // 1
+      $password = $_POST['password']; // 1
+
+      // Gunakan Username dan Password menggunakan huruf dan angka
+      if( ! ctype_alnum( $username ) OR ! ctype_alnum( $password )  ) {
+          echo "<script>
+              alert('Data tidak sesuai');
+              self.history.back(); // 2
+          </script>";
+      } else {
+          // 3 where
+          $login = mysqli_query($conn, "SELECT * FROM administrator WHERE username = '$username' AND password = '$password'" );
+          $ketemu = mysqli_num_rows( $login );
+          $baca = mysqli_fetch_array( $login );
+
+          // Jika username dan password sesuai dan jika tidak sesuai maka
+          if( $ketemu > 0 ) {
+              header('location: daftar_tiket.php'); // 4
+          } else {
+              echo "<script>
+                  alert('Tidak ditemukan pada database');
+                  self.history.back();
+              </script>";
+          }
+      }
+      ?>
+ 17. Penulisan string variable yang tepat untuk melengkapi script nomor 1 adalah: $username & $password.
+ 18. Fungsi script yang ditunjukan nomor 2 adalah: Mengarahkan ke alamat url yang sebelumnya.
+ 19. Query yang tepat untuk melengkapi script koding pada nomor 3 adalah: username = '$username' AND password = '$password'.
+ 20. Fungsi script yang ditunjukan oleh nomor 4 adalah: Meredirect ke alamat url 'dafter_ticket.php'.
