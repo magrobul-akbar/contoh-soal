@@ -75,3 +75,14 @@
  18. Fungsi script yang ditunjukan nomor 2 adalah: Mengarahkan ke alamat url yang sebelumnya.
  19. Query yang tepat untuk melengkapi script koding pada nomor 3 adalah: username = '$username' AND password = '$password'.
  20. Fungsi script yang ditunjukan oleh nomor 4 adalah: Meredirect ke alamat url 'dafter_ticket.php'.
+ 21. Script program diatas merupakan script untuk: melakukan login.
+ 22. Terdapat 2 macam struktur kendali yaitu: Percabangan dan Perulangan.
+ 23. DNS merupakan singkatan dari: Domain Name System.
+ 24. Web server yang mendukung JSP adalah: Apache Tomcat.
+ 25. Apa nama lain dari "Search Engine": Mesin Pencarian.
+ 26. "ASP" merupakan singkatan dari: Active Server Page.
+ 27. Notasi dibawah ini merupakan aturan DFD menurut: ?
+     Terminator, Proses, DataStore, AlurData
+ 28. Perbedaan notifikasi symbol pada kedua ahli DFD adalah: ?
+ 32. Contoh Query database yang digunakan untuk menghapus table pada sebuah database adalah: DROP TABLE nama_tabel.
+ 33. Kumpulan data yang mengambarkan karakteristik atau isi suatu entitas disebut: ?
