@@ -1,0 +1,31 @@
+1. Tag yang digunakan untuk menyimpan dua kolom dalam satu baris adalah: colspan.
+2. Untuk menampilkan table dengan ukuran full size (Horizontal) pada halaman browser digunakan fungsi tag apa: <table style="width: 100%;">.
+3. Pada sebuah table web diketahui th, td { padding: 15px }, perubahan apa yang terjadi pada table tersebut: Sell membesar 15px.
+4. Perhatikan table berikut :
+  <table>
+    <tr>
+        <td></td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+  </table>
+  Tag yag benar untuk menyatukan cell pada table diatas coding yang benar adalah : <td colspan="2"></td>.
+5. Perhatikan table berikut :
+  <table>
+    <tr>
+        <td></td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td rowspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+    <tr>
+        <td rowspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+  </table>
