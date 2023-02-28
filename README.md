@@ -1,2 +1,2 @@
 # contoh-soal
-Contoh soal belajar di sekolah
+Berisi Contoh - contoh soal ujian/ulangan di sekolah
